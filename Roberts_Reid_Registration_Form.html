@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form >
+            <label for="first name" style="margin-right: 10px;">First Name: * </label>
+            <input type="text" id="first_name" name="first_name"><br><br>
+
+            <label for="last name" style="margin-right: 10px;">Last Name: *</label>
+            <input type="text" id="last_name" name="last_name"><br><br>
+
+            <label for = "email address" style="margin-right: 10px;">Email Address: *</label>
+            <input type="text" id="email_address" name="email_address"><br><br>
+
+            <label for="password" style="margin-right: 10px;">Password: *</label>
+            <input type="password" id="password" name="password"><br><br>
+
+            <label for="confirm_password" style="margin-right: 10px;">Confirm Password: *</label>
+            <input type="password" id="confirm_password" name="confirm_password"><br><br>
+
+            <label for="dob" style="margin-right: 10px;">Birthday: *</label>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label for="gender" style="margin-right: 10px;">Gender Identity:</label><br><br>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="non_bindary" value="non_binary">
+                <label for="non_binary">Non-binary</label>
+                <input type="radio" name="gender" id="no_answer" value="no_answer">
+                <label for="no_answer">I prefer not to answer</label><br><br>
+            
+            <label for="description">A short description about myself:</label><br>
+            <textarea id="description" name="description" rows="6" columns="50"></textarea><br><br>
+
+            <label for="language">Favorite Language:</label>
+            <select id="language" name="language">
+                <option value="javascript">JavaScript</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+                <option value="c">C</option>
+                <option value="c_sharp">C#</option>
+                <option value="c_plus_plus">C++</option>
+            </select><br><br>
+            
+            <input type="checkbox" id="opt_in" name="opt_in">
+            <label for="opt_in">Yes, I would like to receive email updates</label><br><br>
+
+            <input type="submit" value="Create Account"><br><br>
+            <label for="submit">* Indicates a required field</label>
+
+
+
+        </form>
+    
+    
+    </body>
+</html>
