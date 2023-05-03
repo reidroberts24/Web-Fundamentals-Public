@@ -1,0 +1,32 @@
+/* SORRY IN ADVANCE FOR THE COLORS I'M COLORBLIND */
+
+h1 {
+    text-align: left;
+    background-color: black;
+    font-family: cursive;
+}
+
+.white {
+    color: white;
+}
+.blue {
+    color: aliceblue;
+}
+h2 {
+    text-align: center;
+    background-color: purple;
+    color: white;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 100;
+}
+
+h3 {
+    text-align: right;
+    background-color: lightblue;
+    color: darkblue;
+    font-family: cursive;
+    text-decoration: underline;
+    font-weight: 100;
+
+}
