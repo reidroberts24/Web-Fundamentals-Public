@@ -1,0 +1,51 @@
+.container {
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .top-nav {
+    height: 150px;
+    background-color: green;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .side-nav {
+    height: 300px;
+    width: 220px;
+    background-color: blue;
+    margin-right: 20px;
+  }
+  .main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box; /* add box-sizing property */
+  }
+  
+  .sub-content {
+    height: 180px;
+    width: 200px;
+    background-color: yellow;
+    margin-right: 10px;
+    box-sizing: border-box;
+    margin-left: 0px;
+  }
+  
+  #advertisement {
+    height: 120px; /* decrease height */
+    width: 660px; /* decrease width */
+    background-color: purple;
+    margin: 0 10px 30px 0; /* adjust margin */
+    box-sizing: border-box;
+  }
+  
