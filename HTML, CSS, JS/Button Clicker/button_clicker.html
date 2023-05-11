@@ -4,24 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <meta name="viewport" content="width=device-width initial-scale="1.0">
 	<title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
     <!-- navigation -->
-    <div class="nav">
-        <h1 class="nav-title">Profile</h1>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-        </ul>
+    <div class="top">
+        <div class="nav">
+            <h1 class="nav-title">Dojonary</h1>
+            <ul class="nav-links">
+                <li><input type="text" class="search-bar" placeholder="Search"></a></li>
+                <li><button class="btn" onclick="logout(this)">Login</button></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                
+                <div class="def-card-1">
+                    
+                    <div class="description-1">
+                        <h2>ninja</h2>
+                        <em>noun</em>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="btn-2" onclick="likeCounter(this)">13 likes</button>
+                    </div>
+                    <div class="definition">
+                        <p class="word-def">
+                            A practitioner skilled in the 
+                            <a href="#" style="color: blue;">Japanese</a>
+                            art of 
+                            <a href="#" style="color: blue;">ninjutsu</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="def-card-1">
+                    
+                    <div class="description-1">
+                        <h2>ninja</h2>
+                        <em>noun</em>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="btn-2" onclick="likeCounter(this)">37 likes</button>
+                    </div>
+                    <div class="definition">
+                        <p class="word-def">
+                            A <a href="#" style="color: blue;">programmer</a>
+                            who breaks down problems with 
+                            <a href="#" style="color: blue;">zen</a>-like focus
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="message">
+                    <p class="new-def">
+                        Dojonary is defined by <strong>YOU</strong>
+                    </p>
+                    <button class="btn-2" onclick="removeButton(this)">Add Definition</button>
+                </div>
+            </div>
+            
+        </div>
     </div>
 </body>
 </html>
 
 
-
-
-justify-content: horizontal
-align-items: vertical
-
-flex-direction
