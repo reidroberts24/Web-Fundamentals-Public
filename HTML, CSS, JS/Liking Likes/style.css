@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.top {
+    background-color: white;
+}
+.nav { 
+    width: 1200px;
+    margin: 0 auto;
+    background-color: black;
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 4px solid black;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.row {
+    display: flex;
+    padding-left: 27.4%;
+    padding-right: 27.4%;
+}
+
+.col-1, .col-2 {
+    margin: 10px;
+    flex: 1;
+}
+
+.col-1 {
+    flex: 1;
+    height: 800px;
+    padding: 10px;
+}
+
+.col-2 {
+    flex: 2;
+    height: 800px;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: left;
+    margin-left: 25px;
+    height: 80px;
+}
+
+.my-profile {
+    margin-top: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    flex-direction: column;
+    border: 4px solid black;
+}
+
+.posts {
+    border: 4px solid white;
+    margin-top: 10px;
+}
+
+.dummy {
+    height: 220px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid black;
+}
+
+.row2 {
+    flex: 1;
+    background-color: white;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.top-half {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.bottom-half {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.num-likes {
+flex: 1;
+text-align: center;
+font-size: large;
+}
+
+.user {
+flex: 1;
+text-align: center;
+font-size: large;
+
+}
+.btn {
+background-color: yellow;
+color: black;
+border: 3px solid black;
+font-size: 25px;
+box-shadow: 3px 3px #000000;
+flex: .5;
+height: 40px;
+margin-right: 10px;;
+}
+
+.filler {
+    width: 80%;
+    height: 100%;
+    margin-left: 50px;
+    font-size: large;
+}
+
+#your-feed {
+    font-size: 50px;
+}
