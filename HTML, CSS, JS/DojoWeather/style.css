@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+
+}
+.top {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: seagreen;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nav-title {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    justify-content: center;
+}
+
+.inner-container {
+    display: flex;
+    width: 60%;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.weather-items {
+    display: flex;
+    height: 70%;
+    flex-direction: row;
+}
+
+.cookies-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+
+}
+.cookies-message {
+    width: 60%;
+    height: 100%;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.disclaimer {
+    display: flex;
+    width:75%;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.notification {
+    font-size: xx-large;
+    height: 25%;
+
+}
+.message {
+    font-size: larger;
+    margin-bottom: 20px;
+    height: 75%;
+}
+
+.day {
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+    margin: 20px;
+    background-color: lightgray;
+}
+
+.temps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 50%
+}
+
+.accept-cookies {
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    color: black;
+    background-color: #17a2b8;
+    border: 4px solid black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+.top-banner {
+    display: flex;
+    height: 7%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    border-bottom: 2px solid black;
+
+}
+.temp-setting {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.city {
+    font-size: 40px;
+}
+.temp-options {
+    height: 50%;
+    width: 20%;
+}
+
+.day-of-week {
+    font-size: 28px;
+    font-weight: 600;
+
+}
+
+.high {
+    font-size: 28px;
+    color: red;
+    font-weight: 600;
+
+}
+
+.low {
+    font-size: 28px;
+    color: blue;
+    font-weight: 600;
+
+}
+
+.forecast {
+    font-size: 28px;
+
+}

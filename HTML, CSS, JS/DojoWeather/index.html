@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+	<title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- navbar -->
+    <div class="top">
+        <div class="nav">
+            <h1 class="nav-title">DojoWeather</h1>
+            <ul class="nav-links">
+                <li><a href="#" class="link" onclick="newCityReport(this)">Austin</a> </li>
+                <li><a href="#" class="link" onclick="newCityReport(this)">Chicago</a> </li>
+                <li><a href="#" class="link" onclick="newCityReport(this)">Dallas</a> </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- main  container-->
+    <div class="main-container">
+        <div class="inner-container">
+            <!-- banner above weather forecasts with city and temperature options-->
+            <div class="top-banner">
+                <h2 class="city">San Jose</h2>
+                <div class="temp-setting">
+                    <p>Show temperature in</p>
+                    <select class="temp-options" onchange="changeDegrees(this)">
+                        <option value="celsius" id="celsius">°C</option>
+                        <option value="fahrenheit" id="fahrenheit">°F</option>
+                        
+                    </select>
+                </div>
+            </div>
+            <!-- weather forecast displays-->
+            <div class="weather-items">
+                <div class="day">
+                    <p class="day-of-week">Today</p>
+                    <img src="assets/some_rain.png" alt="some rain">
+                    <p class="forecast">some rain</p>
+                    <div class="temps">
+                        <p class="high">24°</p>
+                        <p class="low">18°</p>
+                    </div>
+                </div>
+                <div class="day">
+                    <p class="day-of-week">Tomorrow</p>
+                    <img src="assets/some_sun.png" alt="some sun">
+                    <p class="forecast">some sun</p>
+                    <div class="temps">
+                        <p class="high">27°</p>
+                        <p class="low">19°</p>
+                    </div>
+                </div>
+                <div class="day">
+                    <p class="day-of-week">Friday</p>
+                    <img src="assets/some_clouds.png" alt="some clouds">
+                    <p class="forecast">some clouds</p>
+                    <div class="temps">
+                        <p class="high">21°</p>
+                        <p class="low">16°</p>
+                    </div>
+                </div>
+                <div class="day">
+                    <p class="day-of-week">Saturday</p>
+                    <img src="assets/some_sun.png" alt="some sun">
+                    <p class="forecast">some sun</p>
+                    <div class="temps">
+                        <p class="high">26°</p>
+                        <p class="low">21°</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- cookies notification-->
+        <div class="cookies-container" id="cookies-container">
+            <div class="cookies-message">
+                <img src="assets/cookie.png" alt="cookie">
+                <div class="disclaimer">
+                    <h3 class="notification">Stop! Cookie time</h3>
+                    <p class="message">
+                        We use cookies (sadly not the edible ones) to personalize content and ads,
+                        to provide social media features and to analyse our traffic.
+                        <a href="#">Read more...</a>
+                    </p>
+                </div>
+                <button class="accept-cookies" onclick="removeCookieMessage(this)">I Accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
