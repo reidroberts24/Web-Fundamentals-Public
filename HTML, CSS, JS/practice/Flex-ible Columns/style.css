@@ -1,0 +1,52 @@
+.row {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.col {
+    width: 25%;
+    background-color: gray;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.col-1 {
+    flex: 1;
+    background-color: gray;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.col-2 {
+    flex: 2;
+    background-color: gray;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.col-3 {
+    flex: 2;
+    background-color: gray;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.col-4 {
+    flex: 3;
+    background-color: gray;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+
+}
