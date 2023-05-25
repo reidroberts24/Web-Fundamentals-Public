@@ -1,0 +1,28 @@
+.custom-button {
+    /* Background and text styles */
+    background-color: lightgray;
+    color: white;
+    
+    width: 120px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+
+.plus {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.account {
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    margin: 10px;
+    font-size: smaller;
+    box-shadow: 2px 2px 2px black;
+}
